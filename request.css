@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 13vh;
+}
+.nav{
+    position: relative;
+    display: flex;
+    margin-left: 70px;
+}
+
+.nav ul li{
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+.nav ul li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+.left{
+    float: right;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+.box1{
+    font-size: 1.5rem;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(61, 60, 60, 0.267);
+    color: white;
+    border-color: bisque;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.box2{
+    font-size: 1.5rem;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.search{
+    width: 200px;
+    height: 40px;
+    padding-bottom: -25px;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.topic{
+    background-color: rgba(203, 230, 231, 0.932);
+    height: 40vh;
+}
+.nav2{
+    position: relative;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.nav2 ul li{
+    
+    display: inline-block;
+}
+.nav2 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.9rem;
+}
+h2{
+    padding-left: 50px;
+    font-size: 4.7rem;
+    font-weight: lighter;
+}
+.small{
+    background-color: rgba(228, 172, 116, 0.774);
+    border-radius: 4px;
+    width: 700px;
+    height: 90px;
+    margin-top: 120px;
+    margin-left: 90px;
+    font-size: 1.3rem;
+}
+.support{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.unable{
+    font-size: 1.3rem;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.list{
+    font-size: 1.3rem;
+    margin-top: 40px;
+}
+.smalll{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    margin-left: 90px;
+}
+ol li{
+    margin-left: 150px;
+    padding: 10px;
+}
+.li li{
+    margin-left: 200px;
+}
+.topic2{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.small2{
+    background-color: rgba(228, 172, 116, 0.774);
+    border-radius: 4px;
+    width: 700px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 1.3rem;
+}
+.list1{
+    font-size: 1.3rem;
+}
+.hi{
+    padding: 20px;
+    margin-left: 70px;
+    
+}
+.lii li{
+    margin-left: 150px;
+    padding: 10px;
+}
+.un{
+    font-size: 1.3rem;
+    margin-left: 90px;
+}
+footer{
+    background-color: black;
+    margin-top: 70px;
+    font-size: 1.2rem;
+}
+.option1{
+    display: flex;
+    gap: 60px;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+.op1{
+    display: inline;
+    list-style: none;
+    padding-top: 25px;
+}
+.option2{
+    display: flex;
+    gap: 60px;
+    margin-left: 650px;
+    /* padding-top: 50px;  */
+}
+.op2{
+    display: inline;
+    list-style: none;
+    padding-top: 8px;
+}
+.op1 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.op2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+h4{
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+h5{
+    color: white;
+}
+.para{
+    color: white;
+}
+.last{
+    margin-left: 1000px;
+    padding-bottom: 30px;
+}
+.help{
+    margin-left: 200vh;
+    background-color:rgb(52, 52, 189);
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+    position: fixed;
+}
+.he{
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+}
+.next{
+    margin-left: 160vh;
+    margin-top: -110px;
+    /* animation-name: nedi; */
+}
+.next2{
+    display: inline;
+}
+.next2 ul{
+    list-style: none;
+    justify-content: space-between;
+}
+.next2 li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+@media screen {
+    (max-width: 500px;)
+    (min-width: 200px;)
+}
